@@ -1,0 +1,115 @@
+/* Ganti Font jadi lebih modern */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6; /* Warna background abu-abu muda bersih */
+}
+
+/* NAVBAR: Gradasi Biru Royal Bank */
+.navbar {
+    background: linear-gradient(to right, #004e92, #000428); 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* KARTU (CARD): Bikin sudut tumpul & bayangan halus */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efek melayang dikit pas disorot */
+}
+
+.card-header {
+    border-bottom: none;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+/* TOMBOL: Bikin lebih bulat */
+.btn {
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #004e92;
+    border-color: #004e92;
+}
+
+/* FORM INPUT: Lebih lega */
+.form-control {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #004e92;
+    background-color: #f9faff;
+}
+
+/* JUMBOTRON (INFO SALDO): Ubah jadi seperti Kartu ATM */
+.jumbotron {
+    background: linear-gradient(135deg, #11998e, #38ef7d); /* Gradasi Hijau Segar */
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(56, 239, 125, 0.3);
+    padding: 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hiasan background abstrak di kartu saldo */
+.jumbotron::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+}
+
+/* Tabel */
+.table thead th {
+    border-top: none;
+    background-color: #f8f9fa;
+    color: #555;
+    font-weight: 600;
+}
+
+/* =========================================
+   TAMBAHAN KHUSUS HALAMAN LOGIN (BARU)
+   ========================================= */
+
+/* Background Gradient Full Layar untuk Login */
+.bg-login {
+    background: linear-gradient(135deg, #004e92 0%, #000428 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 15px; /* Biar aman di HP */
+}
+
+/* Biar input login lebih tinggi dan enak diketik */
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+/* Biar card login menonjol (shadow tebal) di background gelap */
+.bg-login .card {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.5) !important;
+}
