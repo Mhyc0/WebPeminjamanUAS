@@ -1,6 +1,4 @@
-# 🏦 TabunganKu - Aplikasi Tabungan Digital (PHP MVC)
-
-**TabunganKu** adalah aplikasi web simulasi perbankan sederhana (mini-banking) yang dibangun menggunakan **PHP Native** dengan arsitektur **MVC (Model-View-Controller)**.
+# 🏦 TabunganKu - Aplikasi Tabungan Digital 
 
 Project ini dirancang untuk mendemonstrasikan pengelolaan data nasabah, transaksi keuangan (setor/tarik), dan pelaporan dengan tampilan antarmuka (UI/UX) yang modern serta **Fully Responsive** (tampilan menyesuaikan HP dan Desktop).
 
@@ -11,18 +9,23 @@ Berikut adalah tampilan antarmuka aplikasi **TabunganKu**:
 ### 1. Halaman Login & Keamanan
 Tampilan login dengan desain modern, gradasi warna, dan validasi keamanan.
 
-![Halaman Login](assets/login.jpg)
+<img width="1901" height="1037" alt="image" src="https://github.com/user-attachments/assets/1b1da566-6f30-4bfe-95f6-d6b28cb5d7aa" />
+
 
 ### 2. Dashboard Nasabah (Mobile View)
 Aplikasi sangat responsif saat dibuka di HP. Nasabah bisa melihat saldo, melakukan setor/tarik tunai, dan mengecek riwayat transaksi dengan tabel yang bisa digeser (scrollable).
 
-![Mobile Dashboard](assets/mobile-user.jpg)
+
+<img src="https://github.com/user-attachments/assets/32c10163-7e32-4287-869d-e4a3ecb6550b" width="250" alt="Tampilan Mobile VibeCheck">  <img width="1897" height="1073" alt="image" src="https://github.com/user-attachments/assets/82e7b2f7-a33f-44a5-9bc4-7d3852406083" />
+
+
 
 ### 3. Dashboard Admin
 Administrator dapat melihat, menambah, dan mengelola daftar nasabah dengan mudah. Tabel otomatis menyesuaikan lebar layar.
 
-![Admin Dashboard](assets/admin-list.jpg)
+<img width="1915" height="1071" alt="image" src="https://github.com/user-attachments/assets/035e3bcf-7fa1-4cef-aca4-2493ce6ab2c4" />
 
+<img src="https://github.com/user-attachments/assets/26302790-fb3a-4764-90b9-5e2fe206a976" width="250" alt="Tampilan Mobile VibeCheck">
 ---
 
 ## ✨ Fitur Utama
